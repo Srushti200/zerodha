@@ -1,0 +1,252 @@
+/* CSS resetting */
+
+*{
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* header styling start*/
+.logo-image{
+    width: 12vw;   
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 8vw;
+    border-bottom: 2px solid #f2f2f2;
+    /* width: 100vh;
+    position: fixed; */
+    
+
+}
+
+.options{
+    display: flex;
+    gap: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header end */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    gap: 4vh;
+}
+
+.main img{
+    width: 56vw;
+}
+.main-heading{
+    font-size: 32px;
+}
+
+.main button{
+    border: none;
+    background-color: #387ed3;
+    padding:10px 24px ;
+    border-radius: 4px;
+    color: white;
+}
+
+/* info start */
+
+.info{
+    /* height: 88vh; */
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh 8vw;
+}
+
+.info-1  h1{
+    color: black;
+    width: 440px;
+    
+}
+
+.info-1 h2{
+    color: #424242 ;
+    width: 440px;
+    
+    
+}
+
+.info-1 h4{
+    color: gray;
+    width: 440px;
+    
+}
+
+.info-2 img{
+    width: 35vw;
+} 
+
+.info-2 a{
+    color: #387ed3;
+    margin: 150px 10px;
+
+}
+
+/* info end */
+
+/* media start */
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 8vw;
+
+}
+
+/* media end */
+
+/* pricing start */
+
+.pricing{
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh 2vw;
+    
+}
+
+.pricing-1 h1{
+    color: black;
+}
+
+.pricing-1 p{
+    color: #424242;
+    width: 440px;   
+}
+
+.pricing-1 h3{
+    color: #387ed3;
+}
+ .pricing-2 {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 12vh 8vw; */
+ }
+
+ .pricing-2 .img-1{
+    width: 100px;
+    padding-right: 40px;
+   
+   
+ }
+
+ .pricing-2 .img-2{
+    width: 100px;
+    padding-left: 40px
+  
+ }
+
+ .pricing-2 .img-3{
+    width: 100px;
+    padding-left: 40px;
+   
+ }
+
+ .pricing-2 p{
+    font-size: small;
+
+ }
+
+ /* pricing end */
+
+ /* versity start */
+
+ .varsity {
+    display: flex;
+    justify-content: space-around;
+    padding: 12vh 2vw;
+  
+ }
+
+ .varsity-1{
+    width: 250px;
+ }
+
+ .varsity-2{
+    width: 500px;
+    padding-top: 50px;
+ }
+.varsity-arrow{
+    color: #387ed3;    
+ }
+
+ /* versity end */
+
+ /* account start */
+
+ .account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 4vh;
+    
+ }
+
+ .account h3{
+        border: none;
+        background-color: #387ed3;
+        padding: 10px 24px;
+        border-radius: 4px;
+        color: white;
+ }
+ /* accont end */
+
+ /* last start */
+ .last{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 14vh 14vw;
+    
+
+ }
+ .last-image {
+     width: 12vw;
+
+ }
+
+/* last end */
+
+/* final start */
+.final{
+    padding: 10vh 2vw;
+    text-align: justify;
+    align-items: center;
+    font-weight: 40;
+    font-size: smaller;
+    color: #666;
+}
+
+.final h3{
+    color: gray;
+}
+ 
+
+/* final end 💃💃💃💃💃💃😁😁😁😁 */
+
+
